@@ -898,6 +898,7 @@ padding-left: 4%;
   .banner{
    background-image: url("../images/banner_mobile_smitha.jpg");
     background-position: center;
+    display: block;
   }
   
   .banner_head{
