@@ -775,6 +775,9 @@ padding-left: 4%;
    }
  }
  @media only screen and (max-width: 767px){
+   .banner{
+    background-image: url("../images/banner_mobile_smitha.jpg");
+  }
  .index_preena_card{
   width: -webkit-fill-available;
  }
