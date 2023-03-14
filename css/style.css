@@ -415,7 +415,7 @@ hr{
 .book_session{
   padding-top: 5%;
   background-image: url('../images/wave-01.webp');
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
