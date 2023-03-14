@@ -840,7 +840,7 @@ padding-left: 4%;
 /* index banner */
 @media only screen and (max-width: 992px){
    .banner{
-    background-image: url("../images/banner_mobile_smitha_ios.jpg");
+    background-image: url("../images/banner_mobile_smitha.jpg");
   }
   .banner_heading hr{
     display: none;
@@ -866,7 +866,7 @@ padding-left: 4%;
 
  @media only screen and (max-width: 767px){
    .banner{
-   background-image: url("../images/banner_mobile_smitha_ios.jpg");
+   background-image: url("../images/banner_mobile_smitha.jpg");
   }
 }
 
@@ -897,7 +897,7 @@ padding-left: 4%;
 }
 @media only screen and (max-width: 448px){
   .banner{
-   background-image: url("../images/banner_mobile_smitha_ios.jpg");
+   background-image: url("../images/banner_mobile_smitha.jpg");
   }
   
   .banner_head{
