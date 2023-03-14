@@ -842,7 +842,7 @@ padding-left: 4%;
 /* index banner */
 @media only screen and (max-width: 992px){
    .banner{
-    background-image: url("../images/banner_mobile_smitha.jpg");
+    background-image: url("../images/banner_mobile_smitha_ios.jpg");
   }
   .banner_heading hr{
     display: none;
