@@ -138,6 +138,9 @@
   padding-top: 6%;
   padding-bottom: 6%;      
 }
+.font_blog{
+  font-size: 40px;
+}
 
 
 /* index page */
@@ -831,7 +834,9 @@ padding-left: 4%;
  .book_session_now {
      padding-top: 26%;
  }
-
+ .page_banner_head p{
+  padding-bottom: 0%;      
+}
  }
 
 /* index banner */
