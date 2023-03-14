@@ -1,0 +1,391 @@
+<!--Design by foolishdeveloper.com-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Booking Form </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--POPPINS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  font-family: 'Poppins';
+  overflow-x: 0;
+  margin: 0;
+  padding: 0;
+}
+  /* navbar */
+  .navbar{
+    font-weight: bold !important;
+    font-size: 15px;   
+    padding-bottom: 0% !important;
+    padding-top: 0% !important; 
+  }
+  .nav_menu a{
+    color: #38734D !important;
+  }
+ #link_active{
+    color: black !important;
+  }
+  #logo_header{
+    padding-left: 16%;
+  }
+ #menus{
+    padding-left: 17%;
+ }
+ .button_book{
+    margin-right: 15%;
+    
+ }
+
+.user_image{
+    margin-right: 6%;
+}
+#user_profile{
+    margin-right: 7%;
+}
+.nav_button{
+    width: 100px;
+    padding: 4%;
+    color: white;
+    border-radius: 13px;
+    background-color: #38734D;
+    border: none;
+    font-size: 13px; 
+    font-weight: bold !important;
+}
+.me-3 {
+    margin-right: 2rem!important;
+  
+}
+#navbarSupportedContent a img{
+    width: 73% !important;
+    height: 100% !important;
+}
+
+.booking_section{
+  background: url("images/from_background.webp");
+  box-shadow: inset 0 0 2000px rgba(7, 6, 6, 1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  display: block;
+  
+  place-items: center;
+  text-align: center;
+  background-size: cover;
+ 
+}
+.booking_container{
+    position: absolute;
+    top: 3%;
+    left: 30%;
+ width: 40%; 
+ border-radius: 10px;
+ padding: 0px 25px;
+ background-color: rgba(255,255,255,0.13);
+ backdrop-filter: blur(10px);
+ 
+}
+.booking_head{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0% !important; 
+}
+.booking_form{
+    place-items: left !important;
+  text-align: left !important;
+  color: white !important;
+  font-size: 15px;
+}
+input{
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.13);
+ backdrop-filter: blur(10px);
+ 
+}
+textarea{
+ resize: none;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.13);
+ backdrop-filter: blur(10px);
+}
+input::placeholder{
+color: white;
+font-size: 12px;
+}
+
+.input_division{
+margin-bottom: 4% !important;    
+}
+.email_division{
+    margin-top: 4% !important;    
+}
+.form_button{
+    background-color: #38734D;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+/* media query 
+@media only screen and (min-width: 1209px){
+  .booking_section{
+        height: 132vh;
+    }
+}
+@media only screen and (min-width: 1240px){
+.booking_section {
+    height: 124vh;
+}
+}
+@media only screen and (min-width: 1309px){
+.booking_section {
+    height: 118vh;
+}
+}
+@media only screen and (max-width: 1209px){
+    .booking_section{
+        height: 148vh;
+    }
+}
+@media only screen and (max-width: 1015px){
+    .booking_section{
+        height: 160vh;
+    }
+} */
+
+@media only screen and (min-width: 1309px){
+  .booking_container{
+    top: 6%;
+  }
+}
+@media only screen and (min-width: 1409px){
+  .booking_container{
+    top: 8%;
+  }
+}
+@media only screen and (min-width: 1509px){
+  .booking_container{
+    top: 10%;
+  }
+}
+@media only screen and (min-width: 1609px){
+  .booking_container{
+    top: 12%;
+  }
+}
+@media only screen and (min-width: 200px){
+  .booking_container{
+    top: 14%;
+  }
+}
+
+@media only screen and (max-width: 999px){
+  .booking_container {
+    top: 24%;
+    left: 25%;
+    width: 52%;
+  }  
+}
+@media only screen and (max-width: 992px){
+    #nav_z-index{
+        z-index: 1;
+        margin-top: 4% !important;
+    }
+    .navbar{
+    padding-bottom: 2% !important;
+  }
+  .booking_section{
+  background: url("images/mobile_from_background.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+    height: 123vh;
+  }
+  /*
+  .booking_section {
+    height: 94vh;
+} */
+.booking_container {
+    top: 11%; 
+   
+}
+}
+@media only screen and (max-width: 768px){
+  .booking_container {
+    left: 19%;
+    width: 61%;
+  }
+  .navbar{
+    padding-bottom: 2% !important;
+
+  }
+}
+@media only screen and (max-width: 658px){
+  .booking_container {
+    left: 16%;
+    width: 70%;
+  }
+  .navbar{
+    padding-bottom: 2% !important;
+
+  }
+}
+@media only screen and (max-width: 572px){
+  .booking_container {
+    left: 12%;
+    width: 78%;
+  }
+  .navbar{
+    padding-bottom: 2% !important;
+
+  }
+}
+@media only screen and (max-width: 572px){
+  .booking_container {
+    left: 8%;
+    width: 84%;
+  }
+  .navbar{
+    padding-bottom: 2% !important;
+
+  }
+}
+
+
+.close-btn {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close-btn span {
+  font-size: 44px;
+  font-weight: bold;
+  color: white;
+}
+</style>
+</head>
+<body >
+  
+  <div class="close-btn">
+    <span>&times;</span>
+  </div>
+
+
+<!--booking form-->
+<section class="booking_section">
+<div class="booking_container">
+    <p class="booking_head">BOOKING FORM</p>
+    <form action="book_action.php" class="booking_form">
+        <!--name-->
+        <div clas="input_division name_division">
+            <label for="name">Name</label><br>
+            <input type="text" value="" name="visitor_name" id="name" placeholder="Smitha Subhram">
+        </div> 
+        <!--age-->
+        <div class="elem-group inlined">
+            <label for="">Age</label>
+            <input type="text" id="visitor_age" name="visitor_age" placeholder=""  required>
+          </div>
+          <!--mobile-->
+          <div class="elem-group inlined">
+            <label for="child">Mobile</label>
+            <input type="text" id="child" name="Mobile" placeholder=""  required>
+          </div>
+          <!--email-->
+        <div class="input_division email_division">
+            <label for="name">Email</label><br>
+            <input type="text" value="" id="email" name="email">
+        </div>
+        <!--location-->
+        <div class="input_division location_division">
+            <label for="name">Location</label><br>
+            <input type="text" value="" id="location" name="location">
+        </div>
+         <!--challenge-->
+      <!--  <div class="input_division challenge_division">
+            <label for="name">Describe Your Challenge</label><br>
+            <textarea name="" id="challenge" name="challenge" cols="30" rows="2"></textarea>
+        </div> -->
+        <!--purpose-->
+        <div class="input_division purpose_division">
+            <label for="name">Purpose of Coaching</label><br>
+            <textarea name="" id="purpose" name="purpose" cols="30" rows="2"></textarea>
+        </div>
+        <!--achieve-->
+        <div class="input_division achieve_division">
+            <label for="name">Describe what would you like to achieve through coaching</label><br>
+            <textarea name="achieve" id="achieve" cols="30" rows="2"></textarea>
+        </div>
+        <!--button-->
+        <div class="input_division button_division">
+            <button class="form_button">BOOK NOW</button>
+        </div>
+
+      
+        
+    </form>
+</div>
+</section>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js" ></script> 
+  <script>
+const closeBtn = document.querySelector('.close-btn');
+
+closeBtn.addEventListener('click', () => {
+  window.history.back();
+});
+  </script>
+</body>
+</html>

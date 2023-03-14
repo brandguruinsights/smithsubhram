@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--BOOTSTRAP NEENU & PREENA-->
+       <!-- MDB -->
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+    
+    <!--STYLE SHEET-->
+        <link rel="stylesheet" href="css/style.css">
+    
+    <!--FONTAWESOME FOR FLOATING ICONS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet"> 
+
+    <!--POPPINS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--fontawesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <!--scoll up-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-angle-up"></i>
+    </button>
+   <!--whatsapp icon-->
+   <button onclick="" id="chatBtn" title="WhatsApp chat">
+    <a href="whatsapp://send?text=Hello Smitha&amp;phone=+91 97448 89775"> <i class="fab fa-whatsapp"></i></a>
+  </button>
+ 
+    <!--bootstrap navbar--> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">        
+        <div class="container-fluid">
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <i class="fas fa-bars"></i>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img
+                    src="images/logo_green.webp"
+                    height="80"
+                    alt="MDB Logo"
+                    loading="lazy"
+                    id="logo_header"
+                    />
+                </a>
+            
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menus">
+                    <li class="nav-item nav_menu">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item nav_menu">
+                        <a class="nav-link"  href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item nav_menu">
+                        <a class="nav-link" id="link_active" href="services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item nav_menu">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item nav_menu">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            <!-- Left links -->
+            </div>
+        <!-- Collapsible wrapper -->
+    
+        <!-- Right elements -->
+            <div class="d-flex align-items-center" id="user_profile">
+
+        
+                <!-- button -->
+               
+                <a class="text-reset me-3" href="booknow.html">
+                    <button type="button" onclick = "window.location.href='booknow.html';" class="nav_button">BOOK NOW</button>    
+                  </a>
+              
+                    
+
+            
+              
+            <!-- Avatar
+                <div class="user_image">    
+               
+                    <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle"
+                    height="25"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                    />
+                </a>
+
+                </div>
+              -->
+              
+            </div>
+        <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+    <!--banner about-->
+    <section class="page_banner">
+        <div class="page_banner_head">
+            <p class="line">SERVICES</p>
+            <hr>
+        </div>
+    </section>
+
+    <!--work with me-->
+    <section class="work_with_me_section">
+            <div class="container work_with_container">
+                <p class="heading">Work With Me</p>
+                <p class="paraGraph para_center">I started my career as a lecturer at college/university and while pursuing the same I got certified as an
+                    internationally licensed Heal Your Life facilitator. Along with that I got trained in Mindfulness .</p>
+            </div>
+
+            <div class="container overflow-hidden service_card">
+                <div class="row gy-5">
+                  <div class="col-6">
+                    <div class="p-3 border col_card">
+                        <p class="card_head" >One on One Coaching</p>
+                        <p class="card_para">One-on-one coaching is the process of 
+                            one person assisting another in
+                            resolving a problem or enhancing
+                            performance. With this, I can act as your
+                            navigator, showing you the way around
+                            stumbling blocks and saving you the
+                            trouble of having to figure things out on
+                            your own.</p> 
+                     <!--     <p class="card_view"><a href="">View Details <i class="fa-solid fa-angles-right"></i></a></p>  -->
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="p-3 border col_card">
+                        <p class="card_head">One on One Coaching</p>
+                        <p class="card_para">One-on-one coaching is the process of 
+                            one person assisting another in
+                            resolving a problem or enhancing
+                            performance. With this, I can act as your
+                            navigator, showing you the way around
+                            stumbling blocks and saving you the
+                            trouble of having to figure things out on
+                            your own.</p> 
+                            
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="p-3 border col_card">
+                        <p class="card_head">One on One Coaching</p>
+                        <p class="card_para">One-on-one coaching is the process of 
+                            one person assisting another in
+                            resolving a problem or enhancing
+                            performance. With this, I can act as your
+                            navigator, showing you the way around
+                            stumbling blocks and saving you the
+                            trouble of having to figure things out on
+                            your own.</p> 
+                            
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="p-3 border col_card">
+                        <p class="card_head">One on One Coaching</p>
+                        <p class="card_para">One-on-one coaching is the process of 
+                            one person assisting another in
+                            resolving a problem or enhancing
+                            performance. With this, I can act as your
+                            navigator, showing you the way around
+                            stumbling blocks and saving you the
+                            trouble of having to figure things out on
+                            your own.</p>
+                            
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </section>
+
+    
+    <!--book a session now-->
+    <section class="book_dummy">
+        <section class="book_session">
+            <div class="container book_session_now">
+                <p class="book_head_one">Book a session now!</p>
+                <p class="book_head_two">True transformation is not what happens on the outside, it’s what happens
+                  <br>  on the inside</p>
+            </div>
+            <div class="container book_session_list">
+                <ul>
+                    <li>Ready to change your life?</li>
+                    <li>Do you feel frustrated about how your life is going?</li>
+                    <li>Do you feel as though you’re going in circles?</li>
+                    <li>Do you feel as though your relationship is lacking something?</li>
+                </ul>
+            </div>
+            <div class="book_session_button">
+                <button type="button" onclick = "window.location.href='booknow.html';">BOOK A SESSION</button>
+            </div>
+        </section>
+        </section>
+     
+ 
+ <!--footer-->     
+ <section class="footer_index">
+            
+  <footer class=" text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <img
+              src="images/logo_white.webp"
+              height="80"
+              alt="MDB Logo"
+              loading="lazy"
+              id="footer_logo"
+              />
+              <p class="footer_social"><a href="https://in.linkedin.com/in/dr-smitha-subhram-842a261ba" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>&nbsp;&nbsp;<a href="https://www.instagram.com/smitha.subhram/" target="_blank">
+                <i class="fa-brands fa-instagram"></i></a>
+                &nbsp;&nbsp;<a href="https://www.youtube.com/@smithasubhram7347" target="_blank">
+                  <i class="fa-brands fa-youtube"></i></a>
+                  &nbsp;&nbsp;<a href="tel:+91 9846889775">
+                    <i class="fa-brands fa-whatsapp"></i></a></p>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Links</h5>
+    
+            <ul class="list-unstyled footer_heading">
+              <li>
+                <a href="index.html" class="text-darks">HOME</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-darks">ABOUT US</a>
+              </li>
+              <li>
+                <a href="services.html" class="text-darks">SERVICES</a>
+              </li>
+              <li>
+                <a href="blog.html" class="text-darks">BLOG </a>
+              </li>
+              <li>
+                  <a href="contact.html" class="text-darks">CONTACT US </a>
+                </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ADDRESS</h5>
+    
+            <ul class="list-unstyled mb-0 footer_heading">
+              <li>
+                <p class="text-darks">Vidya</p>
+              </li>
+              <li>
+                <p class="text-darks" id="footer_address">Arun Gardens , Kolazhy</p>
+              </li>
+              <li>
+                <p class="text-darks">Thrissur , India-680010</p>
+              </li>
+              
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">PHONE
+          </h5>
+    
+            <ul class="list-unstyled footer_heading">
+              <li>
+                <a href="tel:+91 9846889775" class="text-darks footer_phone">+91 9846889775</a>                      
+              </li>
+              <li>                     
+                <a href="#!" class="text-uppercase mb-0">EMAIL</a>
+              </li>
+              <li>
+                <a href="mailto:smithasubhram@gmail.com" class="text-darks footer_heading">smithasubhram@gmail.com</a>
+              </li>
+            
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #234038;font-size: 12px;">
+          © 2023 All Rights Reserved. Design by <a href="https://debrandguru.com/" class="brandguru_link" target="_blank">BrandGuru Insights Pvt.Ltd </a> 
+        
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+</section>
+
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js" ></script>
+<script src="js/scroll_top.js"></script>
+</body>
+</html>
