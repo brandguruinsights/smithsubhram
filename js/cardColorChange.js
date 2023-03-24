@@ -13,7 +13,7 @@ box.addEventListener('mouseover', function handleMouseOver() {
 // 👇️ Change text color back on mouseout
 box.addEventListener('mouseout', function handleMouseOut() {
   box.style.color = '#4f4f4f';
-  sub_box.style.color = '#458C57';
+  sub_box.style.color = 'white';
 });
 
 
@@ -26,5 +26,5 @@ box_two.addEventListener('mouseover', function handleMouseOver() {
 // 👇️ Change text color back on mouseout
 box_two.addEventListener('mouseout', function handleMouseOut() {
   box_two.style.color = '#4f4f4f';
-  sub_box_two.style.color = '#458C57';
+  sub_box_two.style.color = 'white';
 });
