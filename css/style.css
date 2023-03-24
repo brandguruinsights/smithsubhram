@@ -118,9 +118,7 @@
 #footer_logo{
   padding-right: 5% !important;
 }
-.footer_social{
-  padding-left: 14%;
-}
+
 .footer_phone{
   padding-bottom: 6% !important;
 }
@@ -131,17 +129,74 @@
  padding-top: 6% !important;
 }
 /*all page banner */
-.page_banner{
-  background-color:#458C57 ;   
+
+#about-banner-smitha{
+  background-image: url('../images/smitha_banner_three.jpg');
+  
+  justify-content: end;  
 }
-.page_banner_head p{
-  color: white;
+#service-banner-smitha{
+  background-image: url('../images/smitha_banner_two.jpg');
+  
+  justify-content: start;  
+}
+.page_banner{ 
+ 
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center ;
+	-webkit-background-size: cover;
+	background-size: cover;
+    min-height: 300px;
+ display: flex;
+
+}
+#about-banner-smitha .page_banner_head {
+padding-top: 8%;
+padding-right: 3%;
+padding-bottom: 8%;
+color: #234038  ;
+}
+
+#service-banner-smitha .page_banner_head {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-bottom: 8%;
+  color: white  ;
+  }
+#service-banner-smitha{
+  color:#234038 ;
+}
+.page_banner_head p{ 
   font-weight: bold;
-  font-size: 35px;
+  font-size: 20px;
   text-align: center;
   padding-top: 6%;
-  padding-bottom: 6%;      
+  padding-bottom: 6%;  
 }
+
+.page_banner_head p {
+  overflow: hidden; /* Ensures the text is not visible until typing animation starts */
+  white-space: nowrap; /* Keeps the text on one line */
+  animation: typing 3s steps(30, end); /* Animation duration and steps */
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.page_banner_head_contact p{
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 6%;
+  
+  
+}
+
+
+
 .font_blog{
   font-size: 40px;
 }
@@ -423,6 +478,7 @@ hr{
 .about_image_col img{
     width: 100%;
     border-radius: 13px;
+    margin-top: 2%;
 }
     
 .heading{
@@ -742,9 +798,194 @@ padding-left: 4%;
 }
 
 
+#mobile-banner-heading{
+  display: none;
+}
+#service-line-mobile{
+  display: none;
+}
 
- /* media Queries */
- @media only screen and (min-width: 4000px){
+/* new css 13-mar */
+#para_top_padding{
+  padding-top: 2%;
+}
+
+
+.contact_form_column{
+  margin-top: 7%;
+}
+
+
+/* line no : 136  ::  font-size: 35px; */
+
+.contact_forms input::placeholder{
+  opacity: 0.5;
+  font-size: 13px;
+  
+}
+.contact_forms textarea::placeholder{
+  opacity: 0.5;
+  font-size: 12px;
+  
+}
+.work_with_container .heading{
+  font-size: 35px;
+}
+.video_client_name{
+  padding-top: 3%;
+  text-align: center;
+}
+#client_video{
+  width:50%;
+  height:50%;
+  padding-left: 3%;
+}
+
+.index_service {
+margin-top: 4%;
+}
+.together_container{
+  background: linear-gradient(135deg, #000, rgba(0,0,0,.1));
+  padding-top: 2%;
+  padding-bottom: 0.5%;
+  margin-bottom: 1.9%;
+  border-radius: 16px;
+  
+}
+
+
+#footer_phone{
+  margin-bottom: 3.4% !important;
+}
+
+/* MEDIA Queries */
+
+@media only screen and (max-width: 1200px){
+  .index_second{
+    font-size: 30px;
+  }
+  .index_about_firstheading{
+    margin-bottom: 0% !important;
+  }
+  .index_about_image{
+    margin-top: 5%;
+  }
+  #neenu_card{
+    margin-left: 9% !important;
+  }
+  .about_image_col img{
+    margin-top: 27%;
+  }
+  }
+  
+
+@media only screen and (min-width: 1500px){
+  #menus {
+    padding-left: 26%;
+}
+}
+
+@media only screen and (min-width: 1500px){
+  .index_about {
+    padding-top: 17%;
+}
+.banner_heading{
+ top: 121px;
+ 
+  width: 722px;
+}
+.banner_para{
+  font-size: 29px;
+}
+}
+@media only screen and (min-width: 1600px){
+  #menus {
+    padding-left: 28%;
+}
+}
+@media only screen and (min-width: 1700px){
+  #service-banner-smitha .page_banner_head {
+    padding-top: 8%;
+    padding-left: 20%;
+}
+}
+
+
+@media only screen and (min-width: 1800px){
+  #menus {
+    padding-left: 30%;
+}
+}
+@media only screen and (min-width: 1800px){
+  #menus {
+    padding-left: 30%;
+}
+}
+
+@media only screen and (min-width: 1900px){
+  .index_about {
+    padding-top: 25%;
+}
+.banner_heading{
+ top: 171px; 
+  width: 834px;
+}
+#about-banner-smitha .page_banner_head {
+  padding-right: 19%;
+}
+#service-banner-smitha .page_banner_head {
+  padding-top: 8%;
+  padding-left: 25%;
+}
+}
+@media only screen and (min-width: 2400px){
+  #menus {
+    padding-left: 34%;
+}
+#service-banner-smitha .page_banner_head {
+  padding-top: 8%;
+  padding-left: 29%;
+}
+
+}
+@media only screen and (min-width: 2600px){
+  #menus {
+    padding-left: 36%;
+}
+}
+
+
+@media only screen and (min-width: 2700px){
+  .banner_heading{
+    width: 1168px;
+    left:30%;
+  }
+  .banner_para{
+    font-size: 44px;
+  }
+  .banner-sign{
+   
+    font-size: 22px;
+  }
+  #about-banner-smitha .page_banner_head {
+    padding-right: 23%;
+  }
+  }
+  
+@media only screen and (min-width: 2900px){
+  #menus {
+    padding-left: 39%;
+}
+}
+
+@media only screen and (min-width: 3400px){
+  .service_card {
+    padding-left: 0%;
+    padding-right: 0%;
+ }
+}
+
+@media only screen and (min-width: 4000px){
   .contact_forms{
   margin-top: 7%;
   }
@@ -753,85 +994,136 @@ padding-left: 4%;
   }
  }
  
- @media only screen and (min-width: 3400px){
-  .service_card {
-    padding-left: 0%;
-    padding-right: 0%;
- }
+
+@media only screen and (max-width: 992px){
+  #nav-mobile-view{
+padding-top: 2% !important;
+padding-bottom: 2% !important;
+  } 
+  .banner_heading hr{
+    display: none;
+  }
+  .banner_head{
+    font-size: 30px;
+  }
+  .banner_heading{
+    width: 550px;
+    top: 161px;
+  }
+  .index_about {
+    padding-top: 29%;
 }
-@media only screen and (max-width: 1200px){
-.index_second{
-  font-size: 30px;
-}
-.index_about_firstheading{
-  margin-bottom: 0% !important;
-}
-.index_about_image{
-  margin-top: 5%;
-}
-#neenu_card{
-  margin-left: 9% !important;
+.about_image_col img {
+  width: 110%;
+  margin-top: 55%;
 }
 }
 
- @media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px){
  
-    #menus{
-        padding-left: 0%;
-     }
-     #logo_header{
-        padding-left: 0%;
-      }
-      .col_card {
-        text-align: justify;
-         padding-left: 5% !important; 
-         padding-right: 5% !important
-      }
-      .card_head {
-        text-align: center;
-      }
-      .meditation_body_blog {
-        line-height: 32px;
-      }
-      .blog_meditation{
-      margin-bottom: 0% !important;
-      }
-      .index_second{
-        font-size: 25px;
-      }
-      .index_about_image{
-        margin-top: 7%;
-      }
-      .index_new3{
-        text-align: justify;
-      }
-      #index_card_row .col-sm-6{
-        width: -webkit-fill-available;
-       
-        margin-bottom: 5%;
-      }
-      #index_card_row #neenu_card{
-        margin-left: 0% !important;
-      }
- }
+  #menus{
+      padding-left: 0%;
+   }
+   #logo_header{
+      padding-left: 0%;
+    }
+    .col_card {
+      text-align: justify;
+       padding-left: 5% !important; 
+       padding-right: 5% !important
+    }
+    .card_head {
+      text-align: center;
+    }
+    .meditation_body_blog {
+      line-height: 32px;
+    }
+    .blog_meditation{
+    margin-bottom: 0% !important;
+    }
+    .index_second{
+      font-size: 25px;
+    }
+    .index_about_image{
+      margin-top: 7%;
+    }
+    .index_new3{
+      text-align: justify;
+    }
+    #index_card_row .col-sm-6{
+      width: -webkit-fill-available;
+     
+      margin-bottom: 5%;
+    }
+    #index_card_row #neenu_card{
+      margin-left: 0% !important;
+    }
+}
 
- @media only screen and (max-width: 992px) and (min-width: 767px) {
-  .about_image_col img{
-    margin-top: 50%;
+@media only screen and (max-width: 992px){
+  #nav_z-index{
+      z-index: 1;
+      margin-top: 4% !important;
   }
-  #index_card_row .col-sm-6{
-    padding-left: 20%;
+  #client_video{
+    width:100%;
+  }
+  #service-banner-smitha{
+    background-image: url('../images/smitha_banner_two-mobile.jpg');    
+}
+#service-banner-smitha .page_banner_head {
+  padding-left: 2%;
+}
+}
+
+@media only screen and (max-width: 985px){
+  #mobile-banner-heading{
+   display: block;
+ }
+ #mobile-banner-heading_hide{
+   display: none;
+ }
+ #about-banner-smitha .page_banner_head p {
+   font-size: 14px;
+  
+     color: #38734D;
+  }
+  #about-banner-smitha .page_banner{
+   background-image: url('../images/smitha_banner_three\ -mobile.jpg');
+  }
+  #about-banner-smitha .page_banner_head{
+   padding-top: 25%;
   }
  }
+ 
  @media only screen and (max-width: 912px){
   .book_session_now{
     padding-top: 17%;
   }
-  .footer_social{
-    padding-left: 0%;
-   }
+  
  }
+
+ @media only screen and (max-width: 840px){
+  #service-line{
+    display: none;
+    
+  }
+#service-line-mobile{
+  display: block;
+  color: black;
+  font-size: 15px;
+}
+#service-banner-smitha .page_banner_head {
+  padding-left: 12%;
+  padding-top: 16%;
+}
+ }
+
  @media only screen and (max-width: 767px){
+  .about_image_col img {
+    width: 100%;
+    margin-top: 3%;
+  }
   .banner_heading {
     left: 50%;
   }
@@ -874,42 +1166,13 @@ padding-left: 4%;
   
  }
 
- @media only screen and (max-width: 575px){
- .index_mobile{
-  padding-left: 3%;
-  padding-right: 3%;
- }
- }
-
- @media only screen and (max-width: 454px){
- .book_session_now {
-     padding-top: 26%;
- }
- .page_banner_head p{
-  padding-bottom: 0%;      
-}
- }
-
-/* index banner */
-@media only screen and (max-width: 992px){
-  
-  .banner_heading hr{
-    display: none;
+ @media only screen and (max-width: 635px){
+  .banner_heading {
+    width: 381px;
   }
-  .banner_head{
-    font-size: 30px;
   }
-  .banner_heading{
-    width: 550px;
-    top: 161px;
-  }
-  .index_about {
-    padding-top: 29%;
-}
-}
 
-
-@media only screen and (max-width: 631px){
+ @media only screen and (max-width: 631px){
   
   .banner_head{
     font-size: 30px;
@@ -920,6 +1183,7 @@ padding-left: 4%;
  
   }
 }
+
 @media only screen and (max-width: 590px){
   
   .banner_head{
@@ -935,7 +1199,54 @@ padding-left: 4%;
   }
 }
 
-@media only screen and (max-width: 379px){
+@media only screen and (max-width: 575px){
+  .index_mobile{
+   padding-left: 3%;
+   padding-right: 3%;
+  }
+  #service-banner-smitha .page_banner_head {
+    padding-left: 5%;
+    padding-top: 40%;
+  }
+}
+
+  @media only screen and (max-width: 448px){
+    .banner{
+      background-image:  url("../images/banner_mobile_smitha.jpg") ;
+      background-position: right;
+      width: 100%;     
+  }
+  
+    .banner_head{
+      font-size: 18px;
+    }
+  
+  .banner_heading {
+    width: 248px;
+  }   
+    
+    .banner_para{
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 472px){
+    .banner_heading {
+        width: 360px;
+    }
+    }
+    
+
+@media only screen and (max-width: 454px){
+    .book_session_now {
+        padding-top: 26%;
+    }
+    #about-banner-smitha .page_banner_head p{
+     padding-bottom: 0%;      
+   }
+}
+   
+ @media only screen and (max-width: 379px){
  
   .banner_head{
     font-size: 16px;
@@ -949,62 +1260,13 @@ padding-left: 4%;
     display: none;
   }
 }
-@media only screen and (max-width: 327px){
+
+ @media only screen and (max-width: 327px){
   .banner_heading{
     width: 305px;
 }
 }
 
-/* new css 13-mar */
-#para_top_padding{
-  padding-top: 2%;
-}
-.about_first_para{
-  padding-top: 2%;
-}
-
-.contact_form_column{
-  margin-top: 7%;
-}
-
-
-@media only screen and (min-width: 1500px){
-  #menus {
-    padding-left: 26%;
-}
-}
-@media only screen and (min-width: 1600px){
-  #menus {
-    padding-left: 28%;
-}
-}
-
-@media only screen and (min-width: 1800px){
-  #menus {
-    padding-left: 30%;
-}
-}
-@media only screen and (min-width: 1800px){
-  #menus {
-    padding-left: 30%;
-}
-}
-
-@media only screen and (min-width: 2400px){
-  #menus {
-    padding-left: 34%;
-}
-}
-@media only screen and (min-width: 2600px){
-  #menus {
-    padding-left: 36%;
-}
-}
-@media only screen and (min-width: 2900px){
-  #menus {
-    padding-left: 39%;
-}
-}
 
 @media only screen and (min-width: 1032px) and (max-width: 1220px){
   #menus {
@@ -1018,120 +1280,22 @@ padding-left: 4%;
 }
 
 
-/* line no : 136  ::  font-size: 35px; */
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+  .about_image_col img{
+    margin-top: 50%;
+  }
+  #index_card_row .col-sm-6{
+    padding-left: 20%;
+  }
 
-.contact_forms input::placeholder{
-  opacity: 0.5;
-  font-size: 13px;
-  
 }
-.contact_forms textarea::placeholder{
-  opacity: 0.5;
-  font-size: 12px;
-  
-}
-.work_with_container .heading{
-  font-size: 35px;
-}
-.video_client_name{
-  padding-top: 3%;
-  text-align: center;
-}
-#client_video{
-  width:50%;
-  height:50%;
-  padding-left: 3%;
-}
-@media only screen and (max-width: 992px){
-  #nav_z-index{
-      z-index: 1;
-      margin-top: 4% !important;
-  }
-  #client_video{
-    width:100%;
-  }
-}
-.index_service {
-margin-top: 4%;
-}
-.together_container{
-  background: linear-gradient(135deg, #000, rgba(0,0,0,.1));
-  padding-top: 2%;
-  padding-bottom: 0.5%;
-  margin-bottom: 1.9%;
-  border-radius: 16px;
-  
-}
+
+
 @media only screen and (max-width: 728px) and (min-width:635px){
-.banner_heading {
-    width: 481px;
-    top: 235px;
-}
-}
-
-@media only screen and (max-width: 635px){
-.banner_heading {
-  width: 381px;
-}
-}
-
-@media only screen and (max-width: 472px){
-.banner_heading {
-    width: 360px;
-}
-}
-
-@media only screen and (max-width: 448px){
-  .banner{
-    background-image:  url("../images/banner_mobile_smitha.jpg") ;
-    background-position: right;
-    width: 100%;     
-}
-
-  .banner_head{
-    font-size: 18px;
+  .banner_heading {
+      width: 481px;
+      top: 235px;
   }
-
-.banner_heading {
-  width: 248px;
-}   
+  }
   
-  .banner_para{
-    font-size: 15px;
-  }
-}
-@media only screen and (min-width: 1500px){
-  .index_about {
-    padding-top: 17%;
-}
-.banner_heading{
- top: 121px;
- 
-  width: 722px;
-}
-.banner_para{
-  font-size: 29px;
-}
-}
-@media only screen and (min-width: 1900px){
-  .index_about {
-    padding-top: 25%;
-}
-.banner_heading{
- top: 171px; 
-  width: 834px;
-}
-}
-@media only screen and (min-width: 2700px){
-.banner_heading{
-  width: 1168px;
-  left:30%;
-}
-.banner_para{
-  font-size: 44px;
-}
-.banner-sign{
- 
-  font-size: 22px;
-}
-}
+  
