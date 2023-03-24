@@ -249,8 +249,10 @@ hr{
   font-weight: bold;
   text-align: center;
 }
-
-
+.index-about-container
+{
+  text-align: center;
+}
 
 .index_new3{
   font-size: 14px;
@@ -264,6 +266,7 @@ hr{
   font-size: 14px; 
   padding-left: 2%;
   padding-right: 2%;
+  justify-content: center;
 }
 .index_service{
  padding-top: 5%;
@@ -272,7 +275,7 @@ hr{
 .new2{
   text-align: center;
   color: white;
- 
+ font-size: 22px;
 }
  .new3{
   line-height: 12px;
@@ -409,6 +412,7 @@ hr{
  .index-service-content{
   color: white;
   text-align: center;
+  
  }
 /* about page */
 
@@ -1054,7 +1058,9 @@ margin-top: 4%;
   background: linear-gradient(135deg, #000, rgba(0,0,0,.1));
   padding-top: 2%;
   padding-bottom: 0.5%;
-  margin-bottom: 1.5%;
+  margin-bottom: 1.9%;
+  border-radius: 16px;
+  
 }
 @media only screen and (max-width: 728px) and (min-width:635px){
 .banner_heading {
@@ -1093,4 +1099,39 @@ margin-top: 4%;
   .banner_para{
     font-size: 15px;
   }
+}
+@media only screen and (min-width: 1500px){
+  .index_about {
+    padding-top: 17%;
+}
+.banner_heading{
+ top: 121px;
+ 
+  width: 722px;
+}
+.banner_para{
+  font-size: 29px;
+}
+}
+@media only screen and (min-width: 1900px){
+  .index_about {
+    padding-top: 25%;
+}
+.banner_heading{
+ top: 171px; 
+  width: 834px;
+}
+}
+@media only screen and (min-width: 2700px){
+.banner_heading{
+  width: 1168px;
+  left:30%;
+}
+.banner_para{
+  font-size: 44px;
+}
+.banner-sign{
+ 
+  font-size: 22px;
+}
 }
