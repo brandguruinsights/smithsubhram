@@ -858,6 +858,9 @@ margin-top: 4%;
   margin-bottom: 3.4% !important;
 }
 
+.card-text{
+  padding-top: 2%;
+}
 /* MEDIA Queries */
 
 @media only screen and (max-width: 1200px){
