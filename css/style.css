@@ -210,7 +210,7 @@ background-image: url("../images/smitha_banner.jpg");
 background-size: cover;
 background-position: center center; 
 background-repeat: no-repeat;
-background-attachment: fixed;
+
 
 padding-top: 10%;
 
@@ -219,7 +219,17 @@ padding-top: 10%;
 -webkit-background-size: cover;
 }
 
-
+@supports not ( -webkit-touch-callout : none) {
+  .banner {
+  background-attachment: fixed;
+  }
+  }
+@supports (-webkit-touch-callout: none) {
+  .banner {
+    background-attachment: scroll
+     
+  }
+}
 
 
 .banner_heading{  
