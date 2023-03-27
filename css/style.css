@@ -210,26 +210,18 @@ background-image: url("../images/smitha_banner.jpg");
 background-size: cover;
 background-position: center center; 
 background-repeat: no-repeat;
-
+background-attachment: fixed;
 
 padding-top: 10%;
 
 -o-background-size: cover;
 -moz-background-size: cover;
 -webkit-background-size: cover;
+overflow:hidden;
+-webkit-overflow-scrolling:touch;
 }
 
-@supports not ( -webkit-touch-callout : none) {
-  .banner {
-  background-attachment: fixed;
-  }
-  }
-@supports (-webkit-touch-callout: none) {
-  .banner {
-    background-attachment: scroll
-     
-  }
-}
+
 
 
 .banner_heading{  
@@ -1197,6 +1189,7 @@ padding-bottom: 2% !important;
   .book_session_now{
     padding-top: 17%;
   }
+
   
  }
 
@@ -1217,9 +1210,7 @@ padding-bottom: 2% !important;
  }
 
  @media only screen and (max-width: 767px){
-  .banner {
-    background-attachment: fixed !important; /* Use scroll for mobile devices */
-  }
+ 
   .about_image_col img {
     width: 100%;
     margin-top: 3%;
@@ -1289,10 +1280,7 @@ padding-bottom: 2% !important;
 }
 
 @media only screen and (max-width: 590px){
-  .banner{
-    background-color: blue;
-     
-}
+
 
   .banner_head{
     font-size: 20px;
@@ -1305,6 +1293,10 @@ padding-bottom: 2% !important;
   .banner_para{
     font-size: 15px;
   }
+
+
+
+
 }
 
 @media only screen and (max-width: 575px){
@@ -1320,9 +1312,10 @@ padding-bottom: 2% !important;
 
   @media only screen and (max-width: 448px){
     .banner{
-      background-color: coral;
+      background-image:  url("../images/banner_mobile_smitha.jpg") ;
       background-position: right;
-      width: 100%;     
+      width: 100%;   
+      
   }
   
     .banner_head{
