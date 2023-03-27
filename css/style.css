@@ -859,7 +859,9 @@ margin-top: 4%;
 .card-text{
   padding-top: 2%;
 }
-
+.index_about_row{
+padding-left: 5.5% !important;
+}
 /* scroll button */
 
 #scroll-down-animation {
@@ -1146,6 +1148,10 @@ padding-bottom: 2% !important;
 }
 #service-banner-smitha .page_banner_head {
   padding-left: 2%;
+}
+	.index_about_row{
+  padding-left: 0% !important;
+  }
 }
 }
 
