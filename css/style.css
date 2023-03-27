@@ -856,11 +856,9 @@ margin-top: 4%;
 #footer_phone{
   margin-bottom: 3.4% !important;
 }
-
 .card-text{
   padding-top: 2%;
 }
-
 
 /* scroll button */
 
@@ -933,8 +931,6 @@ h2 {
 
 }
 
-
-
 /* MEDIA Queries */
 
 @media only screen and (max-width: 1200px){
@@ -972,7 +968,7 @@ h2 {
   width: 722px;
 }
 .banner_para{
-  font-size: 29px;
+  font-size: 35px;
 }
 }
 @media only screen and (min-width: 1600px){
@@ -1165,7 +1161,7 @@ padding-bottom: 2% !important;
   
      color: #38734D;
   }
-  #about-banner-smitha{
+  #about-banner-smitha {
    background-image: url('../images/smitha_banner_three\ -mobile.jpg');
   }
   #about-banner-smitha .page_banner_head{
@@ -1376,3 +1372,4 @@ padding-bottom: 2% !important;
   }
   
   
+
