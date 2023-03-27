@@ -919,8 +919,8 @@ h2 {
 }
 @media only screen and (min-width: 1500px){
   .mouse {
-    height: 100px;
-  width: 40px;
+    height: 44px;
+      width: 26px;
 }
 #scroll-down-animation {
   position: absolute;
