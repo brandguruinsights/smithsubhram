@@ -206,18 +206,19 @@ color: #234038  ;
 
 .banner{
 width: 100%;
- background-image:  url(../images/from_background.webp);
-	
+background-image: url("../images/smitha_banner.jpg");
 background-size: cover;
 background-position: center center; 
 background-repeat: no-repeat;
 background-attachment: fixed;
 padding-top: 10%;
-	
-	-o-background-size: cover;
+
+-o-background-size: cover;
 -moz-background-size: cover;
 -webkit-background-size: cover;
 }
+
+
 
 
 .banner_heading{  
@@ -532,16 +533,18 @@ hr{
 
 .book_session{
   padding-top: 5%;
-   background-image: url('../images/from_background.webp');
- /* background-position: center; */
+  padding-bottom: 3%;
+  background-image:  url(../images/book_session_background.jpg);
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .book_session_now{
   text-align: center;
   color: white;
-  padding-top: 12%;
-  padding-bottom: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .book_head_one{
   font-weight: 600;
@@ -921,12 +924,12 @@ h2 {
 }
 @media only screen and (max-width: 992px){
 #scroll-down-animation{
-  display: none;
+  display: none !important;
 }
 }
 @media only screen and (min-width: 1500px){
   .mouse {
-    height: 44px;
+      height: 44px;
       width: 26px;
 }
 #scroll-down-animation {
@@ -1154,10 +1157,9 @@ padding-bottom: 2% !important;
 #service-banner-smitha .page_banner_head {
   padding-left: 2%;
 }
-	.index_about_row{
+.index_about_row{
   padding-left: 0% !important;
   }
-}
 }
 
 @media only screen and (max-width: 985px){
@@ -1204,6 +1206,11 @@ padding-bottom: 2% !important;
  }
 
  @media only screen and (max-width: 767px){
+  .banner{
+    background-image:  url("../images/banner_mobile_smitha.jpg") ;
+    background-position: right;
+    width: 100%;     
+}
   .about_image_col img {
     width: 100%;
     margin-top: 3%;
@@ -1246,6 +1253,10 @@ padding-bottom: 2% !important;
    }
    .index_about_image{
     margin-bottom: 6%;
+   }
+
+   .book_session{
+    background-image:  url(../images/from_background.webp);
    }
   
  }
@@ -1327,6 +1338,9 @@ padding-bottom: 2% !important;
     }
     #about-banner-smitha .page_banner_head p{
      padding-bottom: 0%;      
+   }
+   #about-banner-smitha .page_banner_head p {
+    font-size: 11px;
    }
 }
    
