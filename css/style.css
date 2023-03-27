@@ -207,11 +207,16 @@ color: #234038  ;
 .banner{
 width: 100%;
 background-image: url("../images/smitha_banner.jpg");
+	
 background-size: cover;
 background-position: center center; 
 background-repeat: no-repeat;
 background-attachment: fixed;
 padding-top: 10%;
+	
+	-o-background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
 }
 
 
