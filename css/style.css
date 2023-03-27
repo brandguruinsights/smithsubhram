@@ -219,6 +219,7 @@ padding-top: 10%;
 -webkit-background-size: cover;
 overflow:hidden;
 -webkit-overflow-scrolling:touch;
+	position: -webkit-sticky !important;
 }
 
 
