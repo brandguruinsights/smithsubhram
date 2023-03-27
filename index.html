@@ -26,6 +26,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
+
 </head>
 <body>
     <!--scoll up-->
@@ -37,6 +38,9 @@
     <button onclick="" id="chatBtn" title="WhatsApp chat">
       <a href="whatsapp://send?text=Hello Smitha&amp;phone=+91 97448 89775"> <i class="fab fa-whatsapp"></i></a>
     </button>
+
+  
+    
     
     <!--bootstrap navbar--> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav_z-index">         
@@ -125,9 +129,21 @@
               journey and discover a new you.&nbsp; <sup><i class="fa-solid fa-quote-right" style="font-size: 22px;"></i></sup></p>
                <p class="banner-sign">- Smitha Subhram -</p>
        </div> 
+
+       <!--scroll button-->
+       <div id="scroll-down-animation">
+        <a href="#scroll-about">
+        <span class="mouse">
+          <span class="move"></span>
+        </span>
+        <h2>Scroll down</h2>
+      </a>
       </div>
 
-    <div class="index_about index_mobile">
+      <!--scroll button-->
+      </div>
+
+    <div class="index_about index_mobile" id="scroll-about">
       <div class="container index-about-container">
         <div data-aos="fade-up"
      data-aos-duration="3000">
@@ -352,7 +368,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js" ></script> 
 
 <script src="js/scroll_top.js"></script>
-
+<script src="js/scroll_button.js"></script>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
