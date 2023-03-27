@@ -1290,8 +1290,10 @@ padding-bottom: 2% !important;
 
 @media only screen and (max-width: 590px){
   .banner{
-    background-image:  url("../images/banner_mobile_smitha.jpg") ;
-  }
+    background-color: blue;
+     
+}
+
   .banner_head{
     font-size: 20px;
   }
@@ -1318,7 +1320,7 @@ padding-bottom: 2% !important;
 
   @media only screen and (max-width: 448px){
     .banner{
-      background-image:  url("../images/banner_mobile_smitha.jpg") ;
+      background-color: coral;
       background-position: right;
       width: 100%;     
   }
