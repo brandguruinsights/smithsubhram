@@ -206,8 +206,7 @@ color: #234038  ;
 
 .banner{
 width: 100%;
-background: url("../images/mobile_from_background.jpg");
-/*background-image: url("../images/smitha_banner.jpg");*/
+background-image: url("../images/smitha_banner.jpg");
 background-size: cover;
 background-position: center center; 
 background-repeat: no-repeat;
